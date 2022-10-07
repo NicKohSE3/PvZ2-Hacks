@@ -1,6 +1,6 @@
 # Understanding This Repository
 
-**[All_In_1_Tools](./Tools/All-In-1-Tools.exe)** is for many things, among them
+**[All_In_1_Tools](Tools/All_In_1_Tools.exe)** is for many things, among them
 * Converting pp.dat to a readable JSON format
 * Converting a JSON file to a RTON file, and afterwards this **must** be renamed to pp.dat
 * Extracting and packing a file
