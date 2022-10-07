@@ -23,12 +23,14 @@
 
 **[LEVEL_MEGA](LEVEL_MEGA)** is for all the stages in the current version of the game
 
-**[Modifications](Modifications)** is for all the things you can modify
-
-**[node_modules](node_modules)** is for all the relevant npm packages
+**[Modifications](Modifications)*** is for all the things you can modify
 
 **Credits**
 
 * [ArdCrypt](https://www.youtube.com/c/ArdCrypt) for the 0 sun mod
 
 * [ErnestoAM](https://ernestoam.fandom.com/wiki/Plants_vs._Zombies_2_Hacking_Guide) for the pp.dat guide
+
+**Note**
+
+*; These have not been added to the repository yet.
