@@ -99,7 +99,7 @@ Scroll down until you see a "pf". This integer takes care of the number of fuel 
 Scroll down until you see a "pt". This integer takes care of the progression number you have. Edit it to the amount you want. Note, Perk Progression will reset to 0 whenever a new Penny's Pursuit week start.
 
 # Edit which Plants you have
-Scroll down until you see a "p". Each plant has their own number ID. For a list of plant IDs, click [here](../Internal_IDs/plants.txt). You can also copy from [plants.json](pp-dat-json/plants.json).
+Scroll down until you see a "p". Each plant has their own number ID. For a list of plant IDs, click [here](../Internal_IDs/plants.txt). You can also copy from [p.json](pp-dat-json/p.json)
 
 # Edit Events
 Scroll down until you see a "tei".
@@ -111,22 +111,22 @@ This seems to control the energy you have available. (Default is 80).
 Appears to be a Unix Timestamp of when the event started.
 
 # Edit which Zombie almanacs you have
-Scroll down until you see a "kz". Each zombie has their own number ID. For a list of zombie IDs, click [here](../Internal_IDs/zombies.txt). You can also copy from [zombies.json](pp-dat-json/zombies.json) (Note: not every single zombie in the game's code has a unique ID, so if it's not in the ID list then it doesn't have one.)
+Scroll down until you see a "kz". Each zombie has their own number ID. For a list of zombie IDs, click [here](../Internal_IDs/zombies.txt). You can also copy from [kz.json](pp-dat-json/kz.json) (Note: not every single zombie in the game's code has a unique ID, so if it's not in the ID list then it doesn't have one.)
 
 # Edit which worlds you unlocked and which levels you completed (unspecified)
 Scroll down until you see "wmed", this is a list of all world ids you have unlocked and which level IDs you have beaten. (Still need a Pastebin for the world IDs)
 
 # Edit which Upgrades and World Trophies you have
-Scroll down until you see "gf". Each Upgrade and World Trophy has their own number ID. For a list of Upgrade and World Trophy IDs, click [here](../Internal_IDs/game_features.txt). You can also copy from [game_features.json](pp-dat-json/game_features.json)
+Scroll down until you see "gf". Each Upgrade and World Trophy has their own number ID. For a list of Upgrade and World Trophy IDs, click [here](../Internal_IDs/game_features.txt). You can also copy from [gf.json](pp-dat-json/gf.json)
 
 # Edit which Narration you have seen
-Scroll down until you see "ne". This takes care of each narrative you have seen in-game. For a list of narration IDs, click [here](../Internal_IDs/narrations.txt). You can also copy from [narrations.json](pp-dat-json/narration.json)
+Scroll down until you see "ne". This takes care of each narrative you have seen in-game. For a list of narration IDs, click [here](../Internal_IDs/narrations.txt). You can also copy from [ne.json](pp-dat-json/ne.json)
 
 # Travel Log Dialog Data (unspecified)
 Scroll down until you see "ct". This seems to take care of whether the Travel Log's intro dialog has been triggered, as deleting it will cause the Travel Log intro dialog to play.
 
 # Edit your Endless Zones
-Scroll down until you see "dri". You will see a list of Endless Zones you have unlocked. Any node that is not listed I have no knowledge of, edit at your own risk.
+Scroll down until you see "dri". You will see a list of Endless Zones you have unlocked. Any node that is not listed I have no knowledge of, edit at your own risk. You can also copy from [dri.json](pp-dat-json/dri.json)
 
 ## wn
 "wn" takes care of the world's Endless Zone, which should otherwise be easy to guess. Do not edit this.
@@ -161,19 +161,19 @@ Scroll down until you see "dri". You will see a list of Endless Zones you have u
 Any number divisible by 2 will just give you the Game Over screen, and any other odd number after 63 will just repeat the table.
 
 ## sb
-These are the current plants you have with you in an Endless Zone. For a list of plant IDs, click [here](../Internal_IDs/plants.txt). You can also copy it from [sb.json](pp-dat-json/sb.json)
+These are the current plants you have with you in an Endless Zone. For a list of plant IDs, click [here](../Internal_IDs/plants.txt).
 
 ## hr
 "hr" is a boolean which determines if this level will draw a card. If set to False, it will not. If True, then yes.
 
 ## ts
-"ts" is likely the last time when you played an Endless Zone. The value is written in Unix Timestamp, you will need to use the [All-In-1-Tool](Tools/All-In-1-Tools.exe) to convert it into the date/time form. It is not necessary to edit this.
+"ts" is likely the last time when you played an Endless Zone. The value is written in Unix Timestamp, you will need to use the [All-In-1-Tool](Tools/All_In_1_Tools.exe) to convert it into the date/time form. It is not necessary to edit this.
 
 # Edit which Costumes you have
-Scroll down until you see "cos". Each costume has their own number ID. For a list of costume IDs, click [here](../Internal_IDs/costumes.json). You can also copy from [costumes.json](pp-dat-json/costumes.json)
+Scroll down until you see "cos". Each costume has their own number ID. For a list of costume IDs, click [here](../Internal_IDs/costumes.json). You can also copy from [cos.json](pp-dat-json/cos.json)
 
 # Edit Powerups Count
-Scroll down until you see "pr". You will see a list of powerups you have unlocked. "n" takes care of the powerup type, which should otherwise be easy to identify (See the list of GameFeatures [here](../Internal_IDs/game_features.txt)). "i" takes care of the corresponding powerup's count. Edit it to the amount you want.
+Scroll down until you see "pr". You will see a list of powerups you have unlocked. "n" takes care of the powerup type, which should otherwise be easy to identify (See the list of GameFeatures [here](../Internal_IDs/game_features.txt)). "i" takes care of the corresponding powerup's count. Edit it to the amount you want. You can also copy from [pr.json](pp-dat-json/pr.json)
 
 # Edit Treasure Yeti in which level
 Scroll down until you see "tyi", this controls in which level a Yeti will spawn.
